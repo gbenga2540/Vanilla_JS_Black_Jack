@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/black-jack.png">
+    <title>Black Jack</title>
+</head>
+<body>
+    <div class="main_container">
+        <h1>Black Jack</h1>
+        <p id="txt_message" style="font-weight: bold;" class="">Please, start the game.</p>
+        <p id="txt_cards">Cards:</p>
+        <p id="txt_sum">Sum:</p>
+        <button id="btn_new_game" onclick="new_game()">New Game</button>
+        <button class="" id="btn_new_card" onclick="new_card()">New Card</button>
+        <span class="user_info">
+            <p>User: $</p>
+            <p id="txt_user_cash"></p>
+        </span>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

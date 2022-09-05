@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(90deg, rgb(23, 198, 252), rgb(96, 231, 255));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container{
+    min-width: 700px;
+    min-height: 450px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Ebrima, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.705);
+}
+
+h1 {
+    margin-bottom: 25px;
+    color: goldenrod;
+    font-size: 60px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.message_alert {
+    color: red;
+    font-size: 40px;
+}
+
+button {
+    margin-top: 20px;
+    height: 42px;
+    width: 170px;
+    font-family: Ebrima, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: rgb(23, 198, 252);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    border: none;
+    transition: all 90ms ease-in-out;
+}
+button:hover{
+    background-color: rgb(89, 216, 255);
+}
+button:active{
+    transform: scale(1.04);
+}
+
+.btn_no_hover {
+    margin-top: 20px;
+    height: 42px;
+    width: 170px;
+    font-family: Ebrima, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: rgb(23, 198, 252);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    border: none;
+}
+.btn_no_hover:hover{
+    background-color: rgb(23, 198, 252);
+}
+.btn_no_hover:active{
+    transform: scale(1.0);
+}
+
+.user_info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.user_info p {
+    font-weight: bold;
+}
